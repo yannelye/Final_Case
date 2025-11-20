@@ -38,8 +38,12 @@ docker stop <CONTAINER_ID>   # Stop any container using port 5000
 Open your browser at:
 http://localhost:5000
 
+---
 
 📝 How to Use
+
+---
+
 1️⃣ Search for Resources
 Enter a ZIP code (e.g., 20164) in the search box.
 Optionally select a category (Food, Legal, Shelter, Medical, Community).
@@ -66,12 +70,17 @@ Example Output:
       }
   ]
 }
+
+---
+
 2️⃣ Translate Text
 Type or paste English text into the translation box.
 Click Translate.
 View a simple Spanish translation and highlighted key actions.
 Example:
 "Evacuate and seek shelter." → "Evacuar y buscar refugio."
+
+---
 
 ⚙ Notes
 The app runs on port 5000 inside Docker.
