@@ -93,13 +93,13 @@ Docker ensures the app runs consistently on any machine with one command. Altern
 
 Performance: Runs quickly; data stored in memory.
 
-Cost: No external services used.
+### Cost: No external services used.
 
-Complexity: Minimal; adding a database would increase complexity.
+### Complexity: Minimal; adding a database would increase complexity.
 
-Maintainability: Easy to maintain for small-scale demo.
+### Maintainability: Easy to maintain for small-scale demo.
 
-Security/Privacy:
+### Security/Privacy:
 
 No API keys or secrets used.
 
@@ -107,13 +107,13 @@ Input validation is minimal; accepts ZIP codes and English text only.
 
 No PII collected.
 
-Ops:
+### Ops:
 
 Flask logs all requests automatically.
 
 Only one container is needed; scaling not required for demo.
 
-Known limitations: single-endpoint structure, no database, translations may be incomplete.
+### Known limitations: single-endpoint structure, no database, translations may be incomplete.
 
 # 5) Results & Evaluation
 
