@@ -1,0 +1,6 @@
+id,name,category,address,city,zipcode,phone,website,lang,description
+1,La Comunidad Food Bank,food,120 Market St,Richmond,23220,804-555-0100,http://example.org,es,Distribución de alimentos para familias en necesidad. Abierto M-F 9-5.
+2,Puentes Legal Aid,legal,55 Court Ave,Richmond,23220,804-555-0200,http://examplelaw.org,en,Immigration and family law assistance. Walk-ins welcome Tuesday 10-2.
+3,Hable ESL,education,200 Main St,Richmond,23223,804-555-0300,http://exampleedu.org,es,Clases de inglés para adultos, niveles básicos e intermedios.
+4,Mental Salud Center,mental_health,45 Wellness Dr,Richmond,23221,804-555-0400,http://examplemh.org,en,Mental health counseling with Spanish-speaking therapists. Insurance accepted.
+5,WorkReady Job Center,jobs,88 Career Rd,Richmond,23220,804-555-0500,http://examplejobs.org,en,Job search assistance and resume workshops.

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "r1",
+    "topic": "Interactions with police",
+    "english": "You have the right to remain silent. If an officer asks to search you or your belongings, you can say no and ask if you are free to leave.",
+    "spanish": "Tiene derecho a permanecer en silencio. Si un oficial pide registrar sus pertenencias, puede decir 'no' y preguntar si es libre de irse.",
+    "source": "Prepared by volunteers (not legal advice)"
+  },
+  {
+    "id": "r2",
+    "topic": "Immigration checkpoints",
+    "english": "You do not have to answer questions about your immigration status. Ask for a legal representative if detained.",
+    "spanish": "No tiene que responder preguntas sobre su estatus migratorio. Solicite un representante legal si es detenido.",
+    "source": "Prepared by volunteers (not legal advice)"
+  }
+]
