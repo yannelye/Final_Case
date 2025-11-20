@@ -37,22 +37,26 @@
    3. Open your web browser and go to:
    http://localhost:5000
 
-How to Use
-Search Resources
+*How to Use*
+*Search Resources*
 Enter a U.S. ZIP code (e.g., 20164 for Northern Virginia).
 Click Search.
 View a list of nearby resources, including addresses, phone numbers, and descriptions.
-Translate Text
+
+*Translate Text*
 Type an English instruction or message in the Simple Spanish Translation box.
 Click Translate.
 See the simplified Spanish translation and a list of key actions extracted from your text.
 Notes
-This is an early demo, so some words or phrases may not translate perfectly.
+
+> ⚠️ **Note:** This is a very early demo. Some words or phrases may not be translated perfectly, and not all ZIP codes or resources may be available.
 The app currently focuses on key Latino community “hot spots” in the U.S.
 The translation system uses a simplified dictionary-based approach to maximize accessibility.
 Example Use Cases
 Helping Spanish speakers understand emergency instructions during disasters.
 Quickly locating local food banks, medical clinics, and legal aid services.
 Translating English instructions into simple Spanish for community outreach.
+>
+> 
 License
 This project is for educational/demo purposes.
