@@ -31,17 +31,13 @@
 
 ```bash
 docker build -t comunidadconnect:latest .
-
+Run the Docker container:
+docker run --rm -p 5000:5000 --env-file .env.example comunidadconnect:latest
 ⚠️ Make sure no other containers are using port 5000. Stop extra containers with:
 docker ps       # List running containers
 docker stop <CONTAINER_ID>   # Stop any container using port 5000
-Open your browser at:
-http://localhost:5000
-
----
-
+Open your browser at: http://localhost:5000
 📝 How to Use
-
 1️⃣ Search for Resources
 Enter a ZIP code (e.g., 20164) in the search box.
 Optionally select a category (Food, Legal, Shelter, Medical, Community).
@@ -68,7 +64,6 @@ Example Output:
       }
   ]
 }
-
 2️⃣ Translate Text
 Type or paste English text into the translation box.
 Click Translate.
@@ -78,7 +73,7 @@ Example:
 ⚙ Notes
 The app runs on port 5000 inside Docker.
 Only one Docker container should be running at a time to avoid port conflicts.
-ZIP codes are based on current "hot spots" in the U.S. Latino communities.
+ZIP codes are based on current "hot spots" in U.S. Latino communities.
 Early demo: Some words or phrases may not translate perfectly.
 
 
