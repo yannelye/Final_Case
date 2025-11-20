@@ -1,62 +1,86 @@
-# ComunidadConnect
+# 🌎 Comunidad Connect
 
-**ComunidadConnect** is a simple web application designed to help Spanish-speaking communities access critical resources and understand emergency instructions in **accessible Spanish**. This is a very early demo, so there may be times where certain words or phrases cannot be translated perfectly.
+**Comunidad Connect** is an early demo web application designed to help the Latino community access emergency resources and translate English emergency instructions into simple, accessible Spanish.
 
----
-
-## Features
-
-1. **Search Local Resources**  
-   - Enter a U.S. ZIP code to find local resources such as:  
-     - Food banks  
-     - Medical clinics  
-     - Legal aid services  
-     - Community centers  
-
-2. **Simple Spanish Translation**  
-   - Enter English instructions or phrases to receive a **simplified Spanish version**.  
-   - The app also extracts **key actions** from your text to highlight important steps (e.g., "Evacuate", "Call 911", "Go to shelter").  
+> ⚠️ **Note:** This is a very early demo. Some words or phrases may not be translated perfectly, and not all ZIP codes or resources may be available.  
+> 📍 **Current Coverage:** The ZIP codes included are the "hot spots" in the U.S. for Latino communities right now, including Northern Virginia (e.g., `20164`). 
 
 ---
 
-## Quick Start
+## ✨ Features
 
-### Requirements
-- Docker installed on your system
-- `.env.example` file configured with any environment variables (optional)
+- **Search for Local Resources by ZIP Code:**  
+  Find food banks, legal aid, shelters, health clinics, and community centers in your area.  
 
-### Running the App
-1. Build the Docker image:
+- **Translate Text to Simple Spanish:**  
+  Enter English text and receive an accessible Spanish translation along with key actions extracted from the text.
 
-   ```bash
-   docker build -t comunidadconnect:latest .
+---
 
-   2. Run the container on port 5000:
-   docker run --rm -p 5000:5000 --env-file .env.example comunidadconnect:latest
+## 🛠 Getting Started
 
-   3. Open your web browser and go to:
-   http://localhost:5000
+### Prerequisites
 
-*How to Use*
-*Search Resources*
-Enter a U.S. ZIP code (e.g., 20164 for Northern Virginia).
-Click Search.
-View a list of nearby resources, including addresses, phone numbers, and descriptions.
+- [Docker](https://www.docker.com/get-started) installed on your system.
 
-*Translate Text*
-Type an English instruction or message in the Simple Spanish Translation box.
+---
+
+### 🚀 Running the App
+
+1. **Build the Docker image:**
+
+```bash
+docker build -t comunidadconnect:latest .
+
+⚠️ Make sure no other containers are using port 5000. Stop extra containers with:
+docker ps       # List running containers
+docker stop <CONTAINER_ID>   # Stop any container using port 5000
+Open your browser at:
+http://localhost:5000
+
+
+📝 How to Use
+1️⃣ Search for Resources
+Enter a ZIP code (e.g., 20164) in the search box.
+Optionally select a category (Food, Legal, Shelter, Medical, Community).
+Click Search to see local resources in your area.
+Example Output:
+{
+  "count": 2,
+  "resources": [
+      {
+          "zip": "20164",
+          "name": "Ashburn Food Pantry",
+          "category": "food",
+          "address": "456 Community Way, Ashburn, VA 20164",
+          "phone": "703-555-0202",
+          "description": "Distributes free food and essentials to families in need."
+      },
+      {
+          "zip": "20164",
+          "name": "Northern Virginia Health Clinic",
+          "category": "medical",
+          "address": "101 Health Blvd, Ashburn, VA 20164",
+          "phone": "703-555-0404",
+          "description": "Free or low-cost medical care for uninsured residents."
+      }
+  ]
+}
+2️⃣ Translate Text
+Type or paste English text into the translation box.
 Click Translate.
-See the simplified Spanish translation and a list of key actions extracted from your text.
-Notes
+View a simple Spanish translation and highlighted key actions.
+Example:
+"Evacuate and seek shelter." → "Evacuar y buscar refugio."
 
-> ⚠️ **Note:** This is a very early demo. Some words or phrases may not be translated perfectly, and not all ZIP codes or resources may be available.
-The app currently focuses on key Latino community “hot spots” in the U.S.
-The translation system uses a simplified dictionary-based approach to maximize accessibility.
-Example Use Cases
-Helping Spanish speakers understand emergency instructions during disasters.
-Quickly locating local food banks, medical clinics, and legal aid services.
-Translating English instructions into simple Spanish for community outreach.
->
-> 
-License
-This project is for educational/demo purposes.
+⚙ Notes
+The app runs on port 5000 inside Docker.
+Only one Docker container should be running at a time to avoid port conflicts.
+ZIP codes are based on current "hot spots" in the U.S. Latino communities.
+Early demo: Some words or phrases may not translate perfectly.
+
+
+
+
+
+
