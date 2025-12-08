@@ -98,6 +98,22 @@ ZIP Codes Used in This Project
 
 11368 - Queens, NY
 
+Words that can be translated as of now. 
+
+  "evacuate": "evacuar",
+    "shelter": "refugio",
+    "evacuation": "evacuación",
+    "police": "la policía",
+    "do not": "no",
+    "don't": "no",
+    "call 911": "llame al 911",
+    "medical attention": "atención médica",
+    "immigration": "inmigración",
+    "legal assistance": "asistencia legal",
+    "food bank": "banco de alimentos",
+    "appointment": "cita",
+    "free": "gratuito"
+
 
 # Tradeoffs:
 
