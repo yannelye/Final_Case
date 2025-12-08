@@ -88,6 +88,19 @@ Flask was chosen for its lightweight nature, simplicity, and minimal setup.
 
 Docker ensures the app runs consistently on any machine with one command. Alternatives like FastAPI or larger frameworks were avoided for unnecessary complexity.
 
+ZIP Codes Used in This Project
+
+20164 – Sterling, VA
+60639 – Chicago, IL
+78521 – Brownsville, TX
+90033 – Los Angeles, CA
+78207 – San Antonio, TX
+77036 – Houston, TX
+33125 – Miami, FL
+11220 – Brooklyn, NY
+92701 – Santa Ana, CA
+
+
 # Tradeoffs:
 
 Performance: Runs quickly; data stored in memory.
