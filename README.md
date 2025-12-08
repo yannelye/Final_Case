@@ -91,13 +91,21 @@ Docker ensures the app runs consistently on any machine with one command. Altern
 ZIP Codes Used in This Project
 
 20164 – Sterling, VA
+
 60639 – Chicago, IL
+
 78521 – Brownsville, TX
+
 90033 – Los Angeles, CA
+
 78207 – San Antonio, TX
+
 77036 – Houston, TX
+
 33125 – Miami, FL
+
 11220 – Brooklyn, NY
+
 92701 – Santa Ana, CA
 
 
